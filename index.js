@@ -23,7 +23,7 @@
     warn.push(scriptElm.outerHTML);
     scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
     doc.head.appendChild(scriptElm)
-    1
+    
     console.warn(warn.join('\n'));
   
   })(document);
