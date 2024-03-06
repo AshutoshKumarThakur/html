@@ -147,18 +147,23 @@ ul li a:hover{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    transition: .4s ease;
+    transition: 0.1s ease;
     
 }
 
 .content .cn a{
     text-decoration: none;
     color: #000;
-    transition: .3s ease;
+    font-weight: bold;
+    transition: 0.1s ease;
 }
 
 .cn:hover{
     background-color: #fff;
+}
+
+.cn:hover a {
+    color: #ff7200;
 }
 
 .content span{
@@ -224,7 +229,7 @@ ul li a:hover{
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
-    transition: 0.4s ease;
+    transition: 0.1s ease;
 }
 .btnn:hover{
     background: #fff;
@@ -234,6 +239,9 @@ ul li a:hover{
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+.btnn:hover a{
+    color: #ff7200;
 }
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
