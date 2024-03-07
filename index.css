@@ -89,6 +89,7 @@ ul li a:hover{
 }
 
 .btn{
+    display: inline-block;
     width: 100px;
     height: 40px;
     background: #ff7200;
@@ -138,6 +139,7 @@ ul li a:hover{
 }
 
 .content .cn{
+    display: inline-block;
     width: 160px;
     height: 40px;
     background: #ff7200;
@@ -220,6 +222,7 @@ ul li a:hover{
 }
 
 .btnn{
+    display: inline-block;
     width: 240px;
     height: 40px;
     background: #ff7200;
